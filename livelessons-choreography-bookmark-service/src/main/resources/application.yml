@@ -5,4 +5,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+       defaultZone: http://172.17.0.2:8761/eureka/
